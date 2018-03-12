@@ -42,12 +42,13 @@ const labelStyle = {
 }
 
 const photoStyle = {
+  'background-size': 'contain',
+  backgroundRepeat: 'no-repeat',
   position: "absolute",
   left: 5,
   top: 5,
   width: 68,
   height: 70,
-  backgroundPosition: "-5px -5px",
 }
 
 export class Card extends Component {
